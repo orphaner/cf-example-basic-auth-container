@@ -1,0 +1,10 @@
+gitops-runtime:
+  global:
+    codefresh:
+      accountId: 67c86ff0e85e6329b1a66f0e
+      userToken:
+        secretKeyRef:
+          name: codefresh-user-token
+          key: token
+    runtime:
+      name: codefresh
